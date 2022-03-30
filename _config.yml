@@ -1,0 +1,8 @@
+title: Mariano Arouxet
+logo: /assets/img/foto.jpeg
+description: Some of my works and projects in data science and signal processing
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-minimal
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
