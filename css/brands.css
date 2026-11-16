@@ -642,3 +642,39 @@
 	--button-background:#0B5CFF;
   --button-border:1px solid #FFFFFF;
 }
+
+/* Custom Uniform Button Style Override
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Makes all buttons transparent with white borders for minimal aesthetic */
+
+.button-spotify,
+.button-apple-music,
+.button-yt-music,
+.button-tidal,
+.button-instagram {
+	--button-text:#ffffff;
+	--button-background:transparent;
+	--button-border:1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Darker borders for light theme */
+:root.theme-light .button-spotify,
+:root.theme-light .button-apple-music,
+:root.theme-light .button-yt-music,
+:root.theme-light .button-tidal,
+:root.theme-light .button-instagram {
+	--button-text:#000000;
+	--button-border:1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* Auto theme - system preference */
+@media (prefers-color-scheme: light) {
+  :root.theme-auto .button-spotify,
+  :root.theme-auto .button-apple-music,
+  :root.theme-auto .button-yt-music,
+  :root.theme-auto .button-tidal,
+  :root.theme-auto .button-instagram {
+    --button-text:#000000;
+    --button-border:1px solid rgba(0, 0, 0, 0.2);
+  }
+}
