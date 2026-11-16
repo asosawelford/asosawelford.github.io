@@ -139,11 +139,11 @@ footer {
 /* Links
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   a {
-	color:#2457F5;
+	color:#5B8FA3;
 	text-decoration:underline;
 }
 a:hover {
-	color:#083BDA;
+	color:#4A7C8E;
 }
 
 /* Buttons
@@ -219,10 +219,10 @@ a:hover {
 	color:#ffffff;
 }
 :root.theme-dark a:not(.button) {
-	color:#4899F7;
+	color:#7AAFC3;
 }
 :root.theme-dark a:not(.button):hover {
-	color:#7AB8FF;
+	color:#9BCBD9;
 }
 
 /* Auto theme */
