@@ -56,13 +56,15 @@
 
 .album-info {
   flex: 1;
+  display: flex;
+  align-items: center;
   text-align: left;
 }
 
 .album-title {
   font-size: 1.3rem;
   font-weight: 600;
-  margin: 0 0 0.25rem 0;
+  margin: 0;
 }
 
 .album-subtitle {
